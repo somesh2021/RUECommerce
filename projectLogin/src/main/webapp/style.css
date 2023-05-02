@@ -1,0 +1,268 @@
+@charset "UTF-8";
+* {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+.body-text {
+
+  display: flex;
+
+  font-family: "Montserrat", sans-serif;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 250px;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+
+  background-color: maroon;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.heading {
+
+  color: white;
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 20px;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 30%;
+
+}
+
+.nav-links li {
+
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  color: white;
+
+  text-decoration: none;
+
+  letter-spacing: 3px;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  padding: 14px 16px;
+
+}
+
+.nav-links a:hover:not(.active) {
+
+  background-color: lightseagreen;
+
+}
+
+.nav-links li a.active {
+
+  background-color: #4caf50;
+
+}
+.login-btn {
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 0 10px;
+  padding: 10px 16px;
+}
+
+.login-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.popup-content {
+    background-color: maroon;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    width: 400px;
+    height: 300px;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.popup-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.popup-content input[type="text"],
+.popup-content input[type="password"],
+.popup-content input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
+.popup-content input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.close {
+      color: red;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .close-btn {
+      background-color: maroon;
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.register-btn {
+  display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #bbb;
+  border-radius: 0 4px 0 0;
+}
+
+.close-button:hover {
+	background-color: #f44336;
+}
+.close-button:before,
+.close-button:after {
+	content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+}
+
+
