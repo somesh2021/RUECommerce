@@ -6,18 +6,18 @@ This is our final project for CS 431 - Software Engineering. It is an e-commerce
 
 These are the credentials that are present in our database for you to login and test our website:
 
-Normal User:
-**Username**: jd123
-**Password**: jd#123
+Normal User:<br />
+**Username**: jd123<br />
+**Password**: jd#123<br />
 
-Customer Representative
-**Username**: cr1
-**Password**: cr1#123
+Customer Representative<br />
+**Username**: cr1<br />
+**Password**: cr1#123<br />
 
-Admin
-**Username**: admin
-**Password**: admin#123
+Admin<br />
+**Username**: admin<br />
+**Password**: admin#123<br />
 
-Company
-**Username**: nike1
-**Password**: nike#123
+Company<br />
+**Username**: nike1<br />
+**Password**: nike#123<br />
