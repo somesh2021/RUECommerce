@@ -6,9 +6,13 @@ This is our final project for CS 431 - Software Engineering. It is an e-commerce
 
 These are the credentials that are present in our database for you to login and test our website:
 
-Normal User:<br />
+Normal Users:<br />
 **Username**: jd123<br />
 **Password**: jd#123<br />
+
+**Username**: tc237<br />
+**Password**: tc#123<br />
+
 
 Customer Representative<br />
 **Username**: cr1<br />
